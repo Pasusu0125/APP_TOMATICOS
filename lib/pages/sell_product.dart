@@ -67,7 +67,7 @@ class _SellProductState extends State<SellProduct> {
                   estilo: temaApp.textTheme.titleLarge,
                   minFontSize: 10,
                   maxFontSize: 18,
-                  title: 'Tomate Chonto',
+                  title: 'Tomate Libertador',
                   maxLines: 1,
                   ajustar: Alignment.center,
                   ajustarTexto: TextAlign.center),
