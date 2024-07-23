@@ -96,8 +96,8 @@ class _LoginState extends State<Login> {
                             top: MediaQuery.of(context).size.height * 0.04),
                         child: ButtonWidget(
                           ruta: () => context.push('/Menu'),
-                          width: MediaQuery.of(context).size.width * 0.65,
-                          height: MediaQuery.of(context).size.height * 0.07,
+                          width: 0.65,
+                          height: 0.07,
                           texto: 'Iniciar Sesión',
                           color: colorbtn2,
                           maxFontSize: 18,

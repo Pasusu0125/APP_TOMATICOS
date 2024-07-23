@@ -10,27 +10,23 @@ class FondoApp extends StatelessWidget {
     final tamanio = altoFondo;
     return Scaffold(
       body: SafeArea(
-        child: ListView(
+        child: Stack(
+          alignment: Alignment.topCenter,
           children: [
-            Stack(
-              alignment: Alignment.topCenter,
-              children: [
-                SizedBox(
-                  height: MediaQuery.of(context).size.height * tamanio,
-                  width: MediaQuery.of(context).size.width,
-                  child: FittedBox(
-                    fit: BoxFit.fill,
-                    child: Image.asset('images/3.jpg'),
-                  ),
-                ),
-                Container(
-                  height: MediaQuery.of(context).size.height * tamanio,
-                  width: MediaQuery.of(context).size.width,
-                  color: Colors.black.withOpacity(0.4),
-                ),
-                child,
-              ],
+            SizedBox(
+              height: MediaQuery.of(context).size.height * tamanio,
+              width: MediaQuery.of(context).size.width,
+              child: FittedBox(
+                fit: BoxFit.fill,
+                child: Image.asset('images/3.jpg'),
+              ),
             ),
+            Container(
+              height: MediaQuery.of(context).size.height * tamanio,
+              width: MediaQuery.of(context).size.width,
+              color: Colors.black.withOpacity(0.4),
+            ),
+            child,
           ],
         ),
       ),

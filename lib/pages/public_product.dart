@@ -50,8 +50,8 @@ class _PublicProductState extends State<PublicProduct> {
                     top: MediaQuery.of(context).size.height * 0.01),
                 child: ButtonWidget(
                     ruta: () => context.push('/registerProduct'),
-                    width: MediaQuery.of(context).size.width * 0.1,
-                    height: MediaQuery.of(context).size.height * 0.05,
+                    width: 0.1,
+                    height: 0.05,
                     texto: 'VENDER',
                     color: colorbtn2,
                     maxFontSize: 16,

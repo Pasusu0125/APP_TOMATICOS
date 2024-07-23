@@ -195,8 +195,8 @@ class _RegisterProductState extends State<RegisterProduct> {
                         ruta: () {
                           Navigator.pop(context);
                         },
-                        width: MediaQuery.of(context).size.width * 0.3,
-                        height: MediaQuery.of(context).size.height * 0.05,
+                        width: 0.3,
+                        height: 0.05,
                         texto: 'CANCELAR',
                         color: colorbtnCancelar,
                         maxFontSize: 14,
@@ -208,8 +208,8 @@ class _RegisterProductState extends State<RegisterProduct> {
                       ),
                       ButtonWidget(
                         ruta: () {},
-                        width: MediaQuery.of(context).size.width * 0.3,
-                        height: MediaQuery.of(context).size.height * 0.05,
+                        width: 0.3,
+                        height: 0.05,
                         texto: 'PUBLICAR',
                         color: colorbtn1,
                         maxFontSize: 14,

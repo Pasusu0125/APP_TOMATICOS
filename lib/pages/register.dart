@@ -172,8 +172,8 @@ class _RegisterState extends State<Register> {
                   ),
                   ButtonWidget(
                     ruta: () => context.go('/Login'),
-                    width: MediaQuery.of(context).size.width * 0.7,
-                    height: MediaQuery.of(context).size.height * 0.05,
+                    width: 0.7,
+                    height: 0.05,
                     texto: 'REGISTRAR',
                     color: colorbtn2,
                     maxFontSize: 18,

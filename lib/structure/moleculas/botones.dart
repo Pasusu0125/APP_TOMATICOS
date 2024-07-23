@@ -84,7 +84,7 @@ class BotonProducto extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 20),
       child: MaterialButton(
-        onPressed: () {},
+        onPressed: () => context.push('/sellProduct'),
         height: MediaQuery.of(context).size.height * 0.2,
         minWidth: MediaQuery.of(context).size.width,
         color: colorContainerProduct2,
