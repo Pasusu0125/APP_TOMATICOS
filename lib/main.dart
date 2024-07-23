@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: temaApp,
       routerConfig: GoRouter(
-        initialLocation: '/Menu',
+        initialLocation: '/Login',
         routes: [
           GoRoute(
             path: '/',
