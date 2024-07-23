@@ -52,7 +52,7 @@ class _PublicProductState extends State<PublicProduct> {
                     ruta: () => context.push('/registerProduct'),
                     width: 0.1,
                     height: 0.05,
-                    texto: 'VENDERR',
+                    texto: 'VENDERR 2.0',
                     color: color3,
                     maxFontSize: 16,
                     minFontSize: 8,
